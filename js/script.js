@@ -229,7 +229,7 @@ Swal.fire({
  const li = document.createElement('li');
 const p = document.createElement("p");
 
-      p.innerHTML = `Intento ${nIntento} => ${num1} ${num2} ${num3} ${num4} => ${bien} bien y ${regular} regulares`;
+      p.innerHTML = `Intento ${nIntento} &#8594 ${num1} ${num2} ${num3} ${num4} &#8594 ${bien} bien y ${regular} regulares`;
     li.appendChild(p);
     lista.appendChild(li);
     
